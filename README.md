@@ -12,15 +12,13 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
    - Use the OpenWeatherMap API to request the current weather data from each unique city in your list.
    - Parse the JSON data from the API request.
    - Collect the following data from the JSON file and add it to a DataFrame
-
 2. Exploratory Analysis with Visualization
    - Create scatter plots, correlations, and heat maps using the Google Maps and Places API of the weather data for the following comparisons
      - Latitude versus temperature
      - Latitude versus humidity
      - Latitude versus cloudiness
      - Latitude versus wind speed
-
- 3. Visualize the data
+3. Visualize the data
     - Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences
       - Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
       - Create a heatmap for the new DataFrame.
