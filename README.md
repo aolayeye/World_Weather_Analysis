@@ -23,7 +23,7 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
  3. Visualize the data
     - Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences
       - Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
-        Create a heatmap for the new DataFrame.
-        Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
-        Store the name of the first hotel in the DataFrame.
-        Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city. 
+      - Create a heatmap for the new DataFrame.
+      - Find a hotel from the cities' coordinates using Google's Maps and Places API, and Search Nearby feature.
+      - Store the name of the first hotel in the DataFrame.
+      - Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city. 
