@@ -52,6 +52,10 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
 ![Linear Regression on the Southern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120711364-e7494d00-c484-11eb-9e8a-b920e1132e1f.png)
 
 
+### Travel Preferences: Heatmap with pop-up markers
+
+![heatmap_vacation_spots_with_pop-up_markers](https://user-images.githubusercontent.com/67847583/120734235-28a22280-c4ae-11eb-8e13-7f1db00139fe.png)
+
 
 ### Findings
 
