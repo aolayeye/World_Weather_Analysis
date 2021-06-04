@@ -119,6 +119,7 @@ We also see that our linear regression model is able to explain away only 0.086%
    - Combine the four cities into a DataFrame and create a map marker layer map.
 
 ## Results
+
 Weather Database
 ![Weather_Database](https://user-images.githubusercontent.com/67847583/120860187-de22b380-c54a-11eb-8a57-7eba19eb4908.png)
 
