@@ -49,8 +49,7 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
 ![Linear Regression on the Northern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120852963-9860ed80-c540-11eb-8f34-fbd43bae2505.png)
 ![Linear Regression on the Southern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120852978-9c8d0b00-c540-11eb-8324-21bf2cf9bc3b.png)
 ![Linear Regression on the Northern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120852997-a57ddc80-c540-11eb-9539-24fdfeeb0d8a.png)
-![Linear Regression on the Southern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120853787-cbf04780-c541-11eb-9602-41ab1509b76c.png)
-
+![Linear Regression on the Southern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120853953-0954d500-c542-11eb-9a88-f07b664caf1c.png)
 
 
 ### Travel Preferences: Heatmap with pop-up markers
