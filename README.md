@@ -80,8 +80,6 @@ The correlation between the latitude and wind speed is very low because the r-va
       - Percent cloudiness
       - Wind speed
       - Weather description
-
    - Add the data to a new DataFrame.
    - Export the DataFrame as a CSV file
-
 2. Create a Customer Travel Destinations Map
