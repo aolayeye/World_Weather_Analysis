@@ -66,3 +66,22 @@ The correlation between the latitude and percent humidity is very low (r^2-value
 The correlation between the latitude and percent cloudiness is very low because the r-value is less than –0.09 for the Northern Hemisphere and less than –0.02 for the Southern Hemisphere for the plots shown here. This means that cloudiness is unpredictable due to changing weather patterns that can increase or decrease percent cloudiness.
 
 The correlation between the latitude and wind speed is very low because the r-value is less  than –0.07 for the Northern Hemisphere and less than –0.3 for the Southern Hemisphere for the plots shown here. This means that wind speed is unpredictable due to changing weather patterns that can increase or decrease wind speed. 
+
+
+### PlanMyTrip Analysis: Control Flow
+1. Create a Weather Database
+   - In a Jupyter Notebook, Create a new set of 2,000 random latitudes and longitudes.
+   - Get the nearest city using the citipy module.
+   - Perform an API call with the OpenWeatherMap.
+   - Retrieve the following information from the API call
+      - Latitude and longitude
+      - Maximum temperature
+      - Percent humidity
+      - Percent cloudiness
+      - Wind speed
+      - Weather description
+
+   - Add the data to a new DataFrame.
+   - Export the DataFrame as a CSV file
+
+2. Create a Customer Travel Destinations Map
