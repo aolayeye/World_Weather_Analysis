@@ -134,4 +134,3 @@ Travel Itinerary
 ![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/67847583/120755020-0a025280-c4d3-11eb-8562-95f5d0ec9b0d.png)
 
 
-
