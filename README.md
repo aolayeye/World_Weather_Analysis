@@ -42,14 +42,14 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
 
 ### Correlations
 
-![Linear Regression on the Northern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120711290-d0a2f600-c484-11eb-8713-143461422e42.png)
-![Linear Regression on the Northern Hemisphere(%Humidity)](https://user-images.githubusercontent.com/67847583/120711313-d698d700-c484-11eb-97d1-d4eabe021cdf.png)
-![Linear Regression on the Northern Hemisphere(Max Temp)](https://user-images.githubusercontent.com/67847583/120711318-d8fb3100-c484-11eb-840c-b0c4bf63f399.png)
-![Linear Regression on the Northern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120711326-dbf62180-c484-11eb-83f6-62bdaec44955.png)
-![Linear Regression on the Southern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120711345-e1536c00-c484-11eb-9e32-a0c7805adaf9.png)
-![Linear Regression on the Southern Hemisphere(%Humidity)](https://user-images.githubusercontent.com/67847583/120711356-e3b5c600-c484-11eb-9b08-94084829702b.png)
-![Linear Regression on the Southern Hemisphere(Max Temp)](https://user-images.githubusercontent.com/67847583/120711362-e57f8980-c484-11eb-80ed-35c22589a91e.png)
-![Linear Regression on the Southern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120711364-e7494d00-c484-11eb-9e8a-b920e1132e1f.png)
+![Linear Regression on the Northern Hemisphere(Max Temp)](https://user-images.githubusercontent.com/67847583/120852856-664f8b80-c540-11eb-94c8-affcd52c5d35.png)
+![Linear Regression on the Southern Hemisphere(Max Temp)](https://user-images.githubusercontent.com/67847583/120852885-74051100-c540-11eb-9ff2-95df7fe45045.png)
+![Linear Regression on the Northern Hemisphere(%Humidity)](https://user-images.githubusercontent.com/67847583/120852927-854e1d80-c540-11eb-9212-1ae6b54f4b2f.png)
+![Linear Regression on the Southern Hemisphere(%Humidity)](https://user-images.githubusercontent.com/67847583/120852942-8da65880-c540-11eb-8cd0-031bc227b4a5.png)
+![Linear Regression on the Northern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120852963-9860ed80-c540-11eb-8f34-fbd43bae2505.png)
+![Linear Regression on the Southern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120852978-9c8d0b00-c540-11eb-8324-21bf2cf9bc3b.png)
+![Linear Regression on the Northern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120852997-a57ddc80-c540-11eb-9539-24fdfeeb0d8a.png)
+![Linear Regression on the Southern Hemisphere for Wind Speed](https://user-images.githubusercontent.com/67847583/120853039-b4fd2580-c540-11eb-924b-6b356855574c.png)
 
 
 ### Travel Preferences: Heatmap with pop-up markers
