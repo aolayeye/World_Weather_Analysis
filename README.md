@@ -99,4 +99,13 @@ The correlation between the latitude and wind speed is very low because the r-va
    - using the loc method, create separate DataFrames for each city on the travel route
    - using the to_numpy() function and list indexing, write code to retrieve the latitude-longitude pairs as tuples from each city DataFrame.
    - create a directions layer map where the starting and ending city are the same city, the waypoints are the three other cities, and the travel_mode is either "DRIVING", "BICYCLING", or "WALKING"
-   - Combine the four cities into a DataFrame and create a map marker layer map 
+   - Combine the four cities into a DataFrame and create a map marker layer map.
+
+## Results
+
+![WeatherPy_vacation_map](https://user-images.githubusercontent.com/67847583/120754974-fd7dfa00-c4d2-11eb-98fc-16ce317bbfaa.png)
+![WeatherPy_travel_map](https://user-images.githubusercontent.com/67847583/120755008-07076200-c4d3-11eb-8d0f-1111520c520b.png)
+![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/67847583/120755020-0a025280-c4d3-11eb-8562-95f5d0ec9b0d.png)
+
+
+
