@@ -59,19 +59,26 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
 
 ### Findings
 
+#### Max Temperature
 For a unit increase in latitude, temperature drops by 0.644 (in the northern hemisphere); similarly for a unit decrease in latitude, tempaerature increases by 0.736 (in the southern hemisphere).
 The correlation between the latitude and the maximum temperature is strong to very strong with (an r^2-value of 0.55292 and a p-value of 0.00 and a slope of -0.644) for the Northern Hemisphere; (an r^2-value of 0.583 and a p-value of 0.00 and a slope of 0.736) for the Southern Hemisphere, as shown by the plots here. This means that as we approach the equator, 0° latitude, the temperatures become warmer. And when we are further from the equator the temperatures become cooler.
 We also see that our linear regression model is able to explain away 55.3% and 58.3% of the relationship between Max Temp and Latitude for the Northern and Southern Hemispheres respectively.
 
+
+#### % Humidity
 For a unit increase in latitude, % humidity increases by 0.02 (in the northern hemisphere); similarly for a unit decrease in latitude, % humidity decreases by 0.02 (in the southern hemisphere).
 The correlation between the latitude and percent humidity is very low with (an r^2-value: 0.00031 and a p-value of 0.729 and a slope of 0.02) for the Northern Hemisphere and (an r^2-value of 0.00026 and a p-value of 0.829 and a slope of -0.023) for the Southern Hemisphere, as shown by the plots here. This means that percent humidity is unpredictable due to changing weather patterns that can increase or decrease percent humidity.
 We also see that our linear regression model is able to explain away only 0.031% and 0.026% of the relationship between % Hunmidity and Latitude for the Northern and Southern Hemispheres respectively.
 
+#### % Cloudiness
 For a unit increase in latitude, % cloudiness increases by 0.054 (in the northern hemisphere); similarly for a unit decrease in latitude, % cloudiness decreases by 0.313 (in the southern hemisphere).
-The correlation between the latitude and percent cloudiness is very low bwith (an r^2-value: 0.00074 and a p-value of 0.59038 and a slope of 0.054) for the Northern Hemisphere and (an r^2-value of 0.01153 and a p-value of 0.15258 and a slope of -0.313) for the Southern Hemisphere, as shown by the plots here. This means that cloudiness is unpredictable due to changing weather patterns that can increase or decrease percent cloudiness.
+The correlation between the latitude and percent cloudiness is very low with (an r^2-value: 0.00074 and a p-value of 0.59038 and a slope of 0.054) for the Northern Hemisphere and (an r^2-value of 0.01153 and a p-value of 0.15258 and a slope of -0.313) for the Southern Hemisphere, as shown by the plots here. This means that cloudiness is unpredictable due to changing weather patterns that can increase or decrease percent cloudiness.
 We also see that our linear regression model is able to explain away only 0.074% and 1.153% of the relationship between % Cloudiness and Latitude for the Northern and Southern Hemispheres respectively.
 
-The correlation between the latitude and wind speed is very low because the r-value is less  than –0.07 for the Northern Hemisphere and less than –0.3 for the Southern Hemisphere for the plots shown here. This means that wind speed is unpredictable due to changing weather patterns that can increase or decrease wind speed. 
+#### Wind Speed
+For a unit increase in latitude, wind speed decreases by 0.008 (in the northern hemisphere); similarly for a unit decrease in latitude, wind speed decreases by 0.015 (in the southern hemisphere).
+The correlation between the latitude and wind speed is very low with (an r^2-value of 0.00086 and a p-value of 0.56261 and a slope of -0.008) for the Northern Hemisphere and (an r^2-value of 0.00204 and a p-value of 0.54802 and a slope of -0.015) for the Southern Hemisphere, as shown by the plots here. This means that wind speed is unpredictable due to changing weather patterns that can increase or decrease wind speed.
+We also see that our linear regression model is able to explain away only 0.086% and 0.204% of the relationship between Wind Speed and Latitude for the Northern and Southern Hemispheres respectively.
 
 
 ### PlanMyTrip Analysis: Control Flow
