@@ -63,7 +63,7 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
 
 ### Findings
 
-#### Max Temperature
+#### Maximum Temperature
 For a unit increase in latitude, temperature drops by 0.644 (in the northern hemisphere); similarly for a unit decrease in latitude, tempaerature increases by 0.736 (in the southern hemisphere).
 The correlation between the latitude and the maximum temperature is strong to very strong with (an r^2-value of 0.55292 and a p-value of 0.00 and a slope of -0.644) for the Northern Hemisphere; (an r^2-value of 0.583 and a p-value of 0.00 and a slope of 0.736) for the Southern Hemisphere, as shown by the plots here. This means that as we approach the equator, 0° latitude, the temperatures become warmer. And when we are further from the equator the temperatures become cooler.
 We also see that our linear regression model is able to explain away 55.3% and 58.3% of the relationship between Max Temp and Latitude for the Northern and Southern Hemispheres respectively.
