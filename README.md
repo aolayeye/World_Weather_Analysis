@@ -83,3 +83,20 @@ The correlation between the latitude and wind speed is very low because the r-va
    - Add the data to a new DataFrame.
    - Export the DataFrame as a CSV file
 2. Create a Customer Travel Destinations Map
+   - using the Weather Database as DataFrame, write two input statements that will search for the DataFrame for cities that fall in the range of the minimum and maximum temperature range provided.
+   - using the loc method filter the DataFrame for temperature criteria collected in the above step, then create a new DataFrame of the preferred cities.
+   - determine if there are any empty rows, then drop them if necessary and create a new DataFrame that will hold the hotel names from the hotel search
+   - using the google place API search for hotel names for the records in the DataFrame.
+   - iterate through the hotel DataFrame and retrieve the latitude and longitude of each city to find the nearest hotel based on the search parameters, then add the hotel name to the new DataFrame. If a hotel isn't found, skip to the next city.
+   - drop any rows in the hotel DataFrame where a hotel name is not found and create an output file to store the hotel DataFrame as CSV
+   - add the city name, the country code, the weather description, and the maximum temperature for each city to a map marker box template
+   - using list comprehension retrieve the city data from each row, which will then be added to the formatting template and saved in the hotel_info list
+   - create a marker layer map.
+3. Create a Travel Itinerary Map
+   - Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
+   - using the vacation search csv as DataFrame, Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
+   - From the vacation search map, choose four cities that a customer might want to visit
+   - using the loc method, create separate DataFrames for each city on the travel route
+   - using the to_numpy() function and list indexing, write code to retrieve the latitude-longitude pairs as tuples from each city DataFrame.
+   - create a directions layer map where the starting and ending city are the same city, the waypoints are the three other cities, and the travel_mode is either "DRIVING", "BICYCLING", or "WALKING"
+   - Combine the four cities into a DataFrame and create a map marker layer map 
