@@ -121,12 +121,15 @@ We also see that our linear regression model is able to explain away only 0.086%
 ## Results
 
 Weather Database
+
 ![Weather_Database](https://user-images.githubusercontent.com/67847583/120860187-de22b380-c54a-11eb-8a57-7eba19eb4908.png)
 
 Travel Destinations
+
 ![WeatherPy_vacation_map](https://user-images.githubusercontent.com/67847583/120754974-fd7dfa00-c4d2-11eb-98fc-16ce317bbfaa.png)
 
 Travel Itinerary
+
 ![WeatherPy_travel_map](https://user-images.githubusercontent.com/67847583/120755008-07076200-c4d3-11eb-8d0f-1111520c520b.png)
 ![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/67847583/120755020-0a025280-c4d3-11eb-8562-95f5d0ec9b0d.png)
 
