@@ -45,9 +45,6 @@ In the second phase of our analysis, we would be assisting PlanMyTrip, a top tra
 ![Linear Regression on the Northern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120711290-d0a2f600-c484-11eb-8713-143461422e42.png)
 ![Linear Regression on the Northern Hemisphere(%Humidity)](https://user-images.githubusercontent.com/67847583/120711313-d698d700-c484-11eb-97d1-d4eabe021cdf.png)
 ![Linear Regression on the Northern Hemisphere(Max Temp)](https://user-images.githubusercontent.com/67847583/120711318-d8fb3100-c484-11eb-840c-b0c4bf63f399.png)
-
-The correlation between the latitude and the maximum temperature is strong to very strong because the r-value is less than –0.7 for the Northern Hemisphere and greater than 0.7 for the Southern Hemisphere, as shown by the plots here. This means that as we approach the equator, 0° latitude, the temperatures become warmer. And when we are further from the equator the temperatures become cooler.
-
 ![Linear Regression on the Northern Hemisphere(Wind Speed)](https://user-images.githubusercontent.com/67847583/120711326-dbf62180-c484-11eb-83f6-62bdaec44955.png)
 ![Linear Regression on the Southern Hemisphere(%Cloudiness)](https://user-images.githubusercontent.com/67847583/120711345-e1536c00-c484-11eb-9e32-a0c7805adaf9.png)
 ![Linear Regression on the Southern Hemisphere(%Humidity)](https://user-images.githubusercontent.com/67847583/120711356-e3b5c600-c484-11eb-9b08-94084829702b.png)
@@ -56,4 +53,12 @@ The correlation between the latitude and the maximum temperature is strong to ve
 
 
 
+### Findings
 
+The correlation between the latitude and the maximum temperature is strong to very strong because the r^2-value is less than 0.55292 and a p-value of 0.00 and a slope of -0.644; for the Northern Hemisphere; r^2-value: 0.583 and a p-value of 0.00 and a slope of 0.736; and greater than 0.7 for the Southern Hemisphere, as shown by the plots here. This means that as we approach the equator, 0° latitude, the temperatures become warmer. And when we are further from the equator the temperatures become cooler.
+
+The correlation between the latitude and percent humidity is very low (r^2-value: 0.008 and a p-value of 0.078 and a slope of 0.1) because the r-value is less than 0.04 for the Northern and Southern Hemispheres (r^2-value: 0.001 and a p-value of 0.632 and a slope of 0.049) for the plots shown here. This means that percent humidity is unpredictable due to changing weather patterns that can increase or decrease percent humidity.
+
+The correlation between the latitude and percent cloudiness is very low because the r-value is less than –0.09 for the Northern Hemisphere and less than –0.02 for the Southern Hemisphere for the plots shown here. This means that cloudiness is unpredictable due to changing weather patterns that can increase or decrease percent cloudiness.
+
+The correlation between the latitude and wind speed is very low because the r-value is less  than –0.07 for the Northern Hemisphere and less than –0.3 for the Southern Hemisphere for the plots shown here. This means that wind speed is unpredictable due to changing weather patterns that can increase or decrease wind speed. 
